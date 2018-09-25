@@ -1,0 +1,65 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 510px;
+  height: 510px;
+  border: 10px solid black;
+  list-style: none;
+  margin: auto;
+
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 10px solid black;
+  margin: 0px;
+  padding: 0px;
+  font-size: 60px;
+  font-family: sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unclicked {
+  background-color: gray;
+
+}
+
+.clicked {
+  background-color: white;
+}
+
+.unclicked:hover {
+  background-color: yellow;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 80px;
+}
+
+
+.WinningSquare{
+  background-color: green;
+  color:white;
+}
+
+.LosingSquare{
+  background-color: white;
+  color:red;
+}
+
+button {
+  margin: ;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+figure {
+
+}
